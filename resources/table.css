@@ -1,0 +1,24 @@
+table.display{margin:0 auto;clear:both;width:100%;font-size:100%;}
+table.display thead th{padding:5px 30px 10px 0;border-bottom:1px solid #093;font-weight:bold;cursor:pointer;* cursor:hand;}
+table.display tfoot th{padding:5px 30px 10px 0;border-top:1px solid #093;font-weight:bold;}
+table.display tr.heading2 td{border-bottom:1px solid #096;}
+table.display td{padding:5px 15px;border-left:1px solid #eee;border-bottom:1px solid #eee;}
+table.display td.center{text-align:center;}
+table.KeyTable td{border:3px solid transparent;}
+table.KeyTable td.focus{border:3px solid #096;}
+th:active{outline:none;}
+tr.odd{background-color:#fff;}
+tr.even{background-color:#fff;}
+tr.odd td.sorting_1{border-left:1px dotted transparent;}
+tr.even td.sorting_1{border-left:1px dotted transparent;}
+.dataTables_wrapper{position:relative;clear:both;zoom:1;}
+.dataTables_processing{position:absolute;top:50%;left:50%;width:250px;height:30px;margin-left:-125px;margin-top:-15px;padding:14px 0 2px 0;border:1px solid #ddd;text-align:center;color:#999;font-size:14px;background-color:white;}
+.dataTables_length{width:40%;float:right;padding:15px 0;text-align:right;}
+.dataTables_filter{width:50%;float:left;padding:15px 0;}
+.dataTables_info{width:60%;float:left;}
+.dataTables_paginate{float:right;text-align:right;}
+.dataTables_scroll{clear:both;}
+.dataTables_scrollBody{*margin-top:-1px;-webkit-overflow-scrolling:touch;}
+.top,.bottom{padding:15px;background-color:#f5f5f5;border:1px solid #ccc;}
+.top .dataTables_info{float:none;}
+.dataTables_empty{text-align:center;}
